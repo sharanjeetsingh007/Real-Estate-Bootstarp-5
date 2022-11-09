@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate Bootstrap 5</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+      <div class="container">
+        <h3 class="nav-bar-brand"><span>BUILD</span>CON</h3>
+        <button
+          class="navbar-toggler text-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Carsoul -->
+    <section id="home" class="mb-5 pb-5">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./project-1-img/home-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Your Dream house</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                dolor impedit eum modi vitae ad!
+              </p>
+              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./project-1-img/home-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Look for the comfort side</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit laborum ullam eaque?
+              </p>
+              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./project-1-img/home-3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Future for family</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+                corrupti ipsum aliquam?
+              </p>
+              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Section Description -->
+    <section id="about" class="section-about my-5 py-5">
+      <div class="container d-md-flex justify-content-between">
+        <img
+          class="about img-fluid w-50 h-50 d-none d-lg-block"
+          src="./project-1-img/about.jpg"
+          alt="about"
+        />
+        <div class="description p-5 mt-5">
+          <p class="display-6 px-5">
+            We Provide the Best Quality Services Ever
+          </p>
+          <p class="px-5">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,
+            amet laboriosam. Rem sint amet porro quisquam magnam nemo at? Enim
+            asperiores assumenda veniam quos laborum? In aut ipsam excepturi
+            expedita!
+          </p>
+          <p class="btn btn-warning mx-5">Learn More</p>
+        </div>
+      </div>
+    </section>
+    <!-- Section Services -->
+    <section class="section-services my-5 py-5" id="services">
+      <div class="container">
+        <div class="section-header text-center pb-5">
+          <h2>Our Services</h2>
+          <p class="px-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+            culpa.
+          </p>
+        </div>
+        <div class="row text-center g-3">
+          <div class="col-md">
+            <div class="card bg-dark text-light py-4">
+              <div class="h1 mb-1">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <div class="card-body">
+                <p class="h4">Best Quality</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <p class="btn btn-warning">Learn More</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light py-4">
+              <div class="h1 mb-1">
+                <i class="bi bi-book"></i>
+              </div>
+              <div class="card-body">
+                <p class="h4">Sustanability</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <p class="btn btn-warning">Learn More</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light py-4">
+              <div class="h1 mb-1">
+                <i class="bi bi-people"></i>
+              </div>
+              <div class="card-body">
+                <p class="h4">Interigity</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <p class="btn btn-warning">Learn More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Projects -->
+    <section id="portfolio" class="section-portfolio py-5">
+      <div class="container">
+        <div class="text-center pb-5">
+          <h2>Our Projects</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            earum!
+          </p>
+        </div>
+        <div class="row text-center g-3">
+          <div class="col-md-4">
+            <div class="card bg-white text-dark p-3">
+              <img
+                class="img-fluid"
+                src="./project-1-img/project-1.jpg"
+                alt="project"
+              />
+              <div class="card-body">
+                <p class="h4">Building Make</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <p class="btn btn-warning">Learn More</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-white text-dark p-3">
+              <img
+                class="img-fluid"
+                src="./project-1-img/project-2.jpg"
+                alt="project"
+              />
+              <div class="card-body">
+                <p class="h4">Building Make</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <p class="btn btn-warning">Learn More</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-white text-dark p-3">
+              <img
+                class="img-fluid"
+                src="./project-1-img/project-3.jpg"
+                alt="project"
+              />
+              <div class="card-body">
+                <p class="h4">Building Make</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <p class="btn btn-warning">Learn More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Team -->
+    <section id="team" class="section-team py-5">
+      <div class="container">
+        <div class="text-center pb-5">
+          <h2>Our Team</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+            consequuntur nemo ea qui, nisi consectetur.
+          </p>
+        </div>
+        <div class="row text-center g-4">
+          <div class="col-md-3 col-lg-3">
+            <div class="card bg-light text-dark py-4">
+              <div class="card-body">
+                <img
+                  src="https://randomuser.me/api/portraits/men/11.jpg"
+                  class="rounded-circle mb-3"
+                />
+                <p class="h4">Best Quality</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between px-5"
+                >
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-laptop"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <div class="card bg-light text-dark py-4">
+              <div class="card-body">
+                <img
+                  src="https://randomuser.me/api/portraits/men/12.jpg"
+                  class="rounded-circle mb-3"
+                />
+                <p class="h4">Best Quality</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between px-5"
+                >
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-laptop"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <div class="card bg-light text-dark py-4">
+              <div class="card-body">
+                <img
+                  src="https://randomuser.me/api/portraits/men/13.jpg"
+                  class="rounded-circle mb-3"
+                />
+                <p class="h4">Best Quality</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between px-5"
+                >
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-laptop"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <div class="card bg-light text-dark py-4">
+              <div class="card-body">
+                <img
+                  src="https://randomuser.me/api/portraits/men/14.jpg"
+                  class="rounded-circle mb-3"
+                />
+                <p class="h4">Best Quality</p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  maxime provident ullam quis recusandae nesciunt voluptates
+                  earum illo esse odio.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between px-5"
+                >
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-laptop"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section contact -->
+    <section id="contact" class="section-contact py-5">
+      <div class="container">
+        <div class="contacts-us pb-5 text-center">
+          <h2>Contacts Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+            harum?
+          </p>
+        </div>
+        <form action="#" class="bg-light p-4 m-auto">
+          <div class="row">
+            <div class="col-md-12 mb-4">
+              <label for="fullname" class="form-label">Full Name</label>
+              <input
+                type="input"
+                id="fullname"
+                class="form-control"
+                aria-describedby="fullname"
+              />
+            </div>
+            <div class="col-md-12 mb-4">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                aria-describedby="passwordHelpBlock"
+              />
+            </div>
+            <div class="col-md-12 mb-4">
+              <label for="meggase" class="form-label">Message</label>
+              <textarea
+                type="text"
+                id="message"
+                class="form-control"
+                aria-describedby="passwordHelpBlock"
+              ></textarea>
+            </div>
+            <button class="btn btn-warning btn-lg btn-block">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark p-3 h-100 text-center d-flex align-items-end">
+      <div class="container">
+        <p class="text-white">All Right Reserver @Website</p>
+      </div>
+    </footer>
+  </body>
+</html>
